@@ -9,6 +9,7 @@ import java.util.List;
 
 public class ListDemo {
     public void execute() {
+        System.out.println("List:");
         List<Integer> firstList = new ArrayList<>();
         firstList.add(1);
         firstList.add(2);
@@ -37,5 +38,6 @@ public class ListDemo {
         thirdList.addAll(firstList);
         System.out.println("hashCode is a number defined by the contents of a list, not object address");
         System.out.println(thirdList.hashCode() + "+" + firstList.hashCode());
+        System.out.println("");
     }
 }
